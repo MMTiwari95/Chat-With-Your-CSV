@@ -251,8 +251,6 @@ Create a `.env` file in the project root:
 GROQ_API_KEY=your_groq_api_key_here
 ```
 
-Do not commit `.env` to GitHub.
-
 ### 5. Run the Application
 
 ```bash
@@ -314,20 +312,6 @@ This architecture helps keep numerical answers grounded in the actual dataset.
 ---
 
 ## 🛡️ Security
-
-Never upload your `.env` file to GitHub.
-
-The `.gitignore` file excludes:
-
-```text
-.env
-.venv/
-__pycache__/
-*.pyc
-.streamlit/secrets.toml
-```
-
-If an API key is accidentally exposed, revoke it immediately and generate a new one.
 
 ---
 
