@@ -375,7 +375,7 @@ else:
         "to start analyzing your data.")
     st.markdown(
 
-        """
+"""
 
 ### 💡 Example Questions
 
@@ -406,5 +406,4 @@ else:
 - Which year has the highest total income?
 
 """
-
     )
